@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'redired';
+  
+  constructor() {
+    window.location.href = "https://www.microsoft.com/en-in/windows/";
+  }
 }
